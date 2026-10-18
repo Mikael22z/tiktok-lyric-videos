@@ -14,3 +14,8 @@ node_modules/
 __pycache__/
 .DS_Store
 .env
+
+# Arquivos de trabalho regeneráveis
+**/work/thumbs/
+**/work/mock/*.png
+**/work/letra.*
