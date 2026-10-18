@@ -12,7 +12,8 @@ mkdir -p "$SKILLS_DIR"
 [ -d "$TOOLS_DIR/video-use" ]   || git clone --depth 1 https://github.com/browser-use/video-use "$TOOLS_DIR/video-use"
 
 # Dependências Python do video-use + yt-dlp + análise de beat (librosa)
-( cd "$TOOLS_DIR/video-use" && uv sync && uv pip install yt-dlp librosa numpy soundfile )
+( cd "$TOOLS_DIR/video-use" && uv sync )
+python3 -m pip install -q yt-dlp librosa numpy soundfile
 
 # Registra as skills para o Claude Code
 ln -sfn "$TOOLS_DIR/video-use" "$SKILLS_DIR/video-use"
