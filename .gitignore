@@ -19,3 +19,10 @@ __pycache__/
 **/work/thumbs/
 **/work/mock/*.png
 **/work/letra.*
+
+# Mídia gerada (reconstruível com scripts/build_picture.py e ffmpeg)
+**/projeto/assets/picture.mp4
+**/projeto/assets/music.m4a
+**/projeto/.hyperframes/
+**/renders/previa*
+**/work/verify/

@@ -1,0 +1,1109 @@
+[
+ {
+  "start": 1.66,
+  "end": 3.04,
+  "words": [
+   {
+    "text": "Filipe",
+    "kind": "plain",
+    "t": 1.66
+   },
+   {
+    "text": "Ret",
+    "kind": "plain",
+    "t": 2.14
+   },
+   {
+    "text": "é",
+    "kind": "plain",
+    "t": 2.44
+   },
+   {
+    "text": "o",
+    "kind": "plain",
+    "t": 2.62
+   },
+   {
+    "text": "aço",
+    "kind": "zoom",
+    "t": 2.78
+   }
+  ]
+ },
+ {
+  "start": 3.08,
+  "end": 4.16,
+  "words": [
+   {
+    "text": "minha",
+    "kind": "plain",
+    "t": 3.08
+   },
+   {
+    "text": "banca",
+    "kind": "plain",
+    "t": 3.22
+   },
+   {
+    "text": "é",
+    "kind": "plain",
+    "t": 3.48
+   },
+   {
+    "text": "o",
+    "kind": "plain",
+    "t": 3.62
+   },
+   {
+    "text": "bicho",
+    "kind": "red",
+    "t": 3.7
+   }
+  ]
+ },
+ {
+  "start": 5.83,
+  "end": 7.02,
+  "words": [
+   {
+    "text": "Não",
+    "kind": "plain",
+    "t": 5.83
+   },
+   {
+    "text": "sei",
+    "kind": "plain",
+    "t": 6.04
+   },
+   {
+    "text": "mais",
+    "kind": "plain",
+    "t": 6.24
+   },
+   {
+    "text": "o",
+    "kind": "plain",
+    "t": 6.48
+   },
+   {
+    "text": "que",
+    "kind": "plain",
+    "t": 6.58
+   },
+   {
+    "text": "eu",
+    "kind": "plain",
+    "t": 6.68
+   },
+   {
+    "text": "faço",
+    "kind": "plain",
+    "t": 6.76
+   }
+  ]
+ },
+ {
+  "start": 7.14,
+  "end": 8.36,
+  "words": [
+   {
+    "text": "eu",
+    "kind": "plain",
+    "t": 7.14
+   },
+   {
+    "text": "nasci",
+    "kind": "red",
+    "t": 7.24
+   },
+   {
+    "text": "pra",
+    "kind": "plain",
+    "t": 7.62
+   },
+   {
+    "text": "isso",
+    "kind": "plain",
+    "t": 7.78
+   }
+  ]
+ },
+ {
+  "start": 10.05,
+  "end": 11.2,
+  "words": [
+   {
+    "text": "Nas",
+    "kind": "plain",
+    "t": 10.05
+   },
+   {
+    "text": "ruas",
+    "kind": "plain",
+    "t": 10.26
+   },
+   {
+    "text": "do",
+    "kind": "plain",
+    "t": 10.58
+   },
+   {
+    "text": "TTK",
+    "kind": "red",
+    "t": 10.72
+   }
+  ]
+ },
+ {
+  "start": 11.2,
+  "end": 12.24,
+  "words": [
+   {
+    "text": "f*",
+    "kind": "censor",
+    "t": 11.2
+   },
+   {
+    "text": "vários",
+    "kind": "plain",
+    "t": 11.66
+   }
+  ]
+ },
+ {
+  "start": 12.24,
+  "end": 13.92,
+  "words": [
+   {
+    "text": "Mulheres",
+    "kind": "plain",
+    "t": 12.24
+   },
+   {
+    "text": "pra",
+    "kind": "plain",
+    "t": 13.02
+   },
+   {
+    "text": "lá",
+    "kind": "plain",
+    "t": 13.17
+   },
+   {
+    "text": "e",
+    "kind": "plain",
+    "t": 13.48
+   },
+   {
+    "text": "pra",
+    "kind": "plain",
+    "t": 13.52
+   },
+   {
+    "text": "cá",
+    "kind": "plain",
+    "t": 13.68
+   }
+  ]
+ },
+ {
+  "start": 14.22,
+  "end": 14.98,
+  "words": [
+   {
+    "text": "s*",
+    "kind": "censor",
+    "t": 14.22
+   },
+   {
+    "text": "à",
+    "kind": "plain",
+    "t": 14.46
+   },
+   {
+    "text": "vontade",
+    "kind": "plain",
+    "t": 14.56
+   }
+  ]
+ },
+ {
+  "start": 15.2,
+  "end": 16.16,
+  "words": [
+   {
+    "text": "Motos",
+    "kind": "red",
+    "t": 15.2
+   },
+   {
+    "text": "e",
+    "kind": "plain",
+    "t": 15.58
+   },
+   {
+    "text": "carros",
+    "kind": "red",
+    "t": 15.7
+   }
+  ]
+ },
+ {
+  "start": 17.88,
+  "end": 18.88,
+  "words": [
+   {
+    "text": "Gosto",
+    "kind": "plain",
+    "t": 17.88
+   },
+   {
+    "text": "de",
+    "kind": "plain",
+    "t": 18.36
+   },
+   {
+    "text": "viver",
+    "kind": "red",
+    "t": 18.56
+   }
+  ]
+ },
+ {
+  "start": 19.0,
+  "end": 20.16,
+  "words": [
+   {
+    "text": "gosto",
+    "kind": "plain",
+    "t": 19.0
+   },
+   {
+    "text": "de",
+    "kind": "plain",
+    "t": 19.14
+   },
+   {
+    "text": "viajar",
+    "kind": "plain",
+    "t": 19.42
+   }
+  ]
+ },
+ {
+  "start": 21.87,
+  "end": 22.88,
+  "words": [
+   {
+    "text": "Sem",
+    "kind": "plain",
+    "t": 21.87
+   },
+   {
+    "text": "medo",
+    "kind": "plain",
+    "t": 22.08
+   },
+   {
+    "text": "de",
+    "kind": "plain",
+    "t": 22.36
+   },
+   {
+    "text": "morrer",
+    "kind": "red",
+    "t": 22.54
+   }
+  ]
+ },
+ {
+  "start": 22.96,
+  "end": 24.34,
+  "words": [
+   {
+    "text": "sem",
+    "kind": "plain",
+    "t": 22.96
+   },
+   {
+    "text": "medo",
+    "kind": "plain",
+    "t": 23.08
+   },
+   {
+    "text": "de",
+    "kind": "plain",
+    "t": 23.34
+   },
+   {
+    "text": "arriscar",
+    "kind": "red",
+    "t": 23.52
+   }
+  ]
+ },
+ {
+  "start": 25.54,
+  "end": 26.46,
+  "words": [
+   {
+    "text": "Eu",
+    "kind": "plain",
+    "t": 25.54
+   },
+   {
+    "text": "tenho",
+    "kind": "plain",
+    "t": 25.74
+   },
+   {
+    "text": "o",
+    "kind": "plain",
+    "t": 25.96
+   },
+   {
+    "text": "trabalho",
+    "kind": "red",
+    "t": 26.16
+   }
+  ]
+ },
+ {
+  "start": 26.46,
+  "end": 28.54,
+  "words": [
+   {
+    "text": "que",
+    "kind": "plain",
+    "t": 26.46
+   },
+   {
+    "text": "todo",
+    "kind": "plain",
+    "t": 26.68
+   },
+   {
+    "text": "homem",
+    "kind": "plain",
+    "t": 26.96
+   },
+   {
+    "text": "pediu",
+    "kind": "plain",
+    "t": 27.32
+   },
+   {
+    "text": "à",
+    "kind": "plain",
+    "t": 27.8
+   },
+   {
+    "text": "Deus",
+    "kind": "zoom",
+    "t": 28.17
+   }
+  ]
+ },
+ {
+  "start": 29.02,
+  "end": 30.52,
+  "words": [
+   {
+    "text": "O",
+    "kind": "plain",
+    "t": 29.02
+   },
+   {
+    "text": "estilo",
+    "kind": "plain",
+    "t": 29.22
+   },
+   {
+    "text": "de",
+    "kind": "plain",
+    "t": 29.5
+   },
+   {
+    "text": "vida",
+    "kind": "plain",
+    "t": 29.72
+   },
+   {
+    "text": "e",
+    "kind": "plain",
+    "t": 29.94
+   },
+   {
+    "text": "o",
+    "kind": "plain",
+    "t": 30.02
+   },
+   {
+    "text": "salário",
+    "kind": "red",
+    "t": 30.1
+   }
+  ]
+ },
+ {
+  "start": 30.52,
+  "end": 32.44,
+  "words": [
+   {
+    "text": "que",
+    "kind": "plain",
+    "t": 30.52
+   },
+   {
+    "text": "todo",
+    "kind": "plain",
+    "t": 30.7
+   },
+   {
+    "text": "homem",
+    "kind": "plain",
+    "t": 30.98
+   },
+   {
+    "text": "pediu",
+    "kind": "plain",
+    "t": 31.34
+   },
+   {
+    "text": "à",
+    "kind": "plain",
+    "t": 31.8
+   },
+   {
+    "text": "Deus",
+    "kind": "red",
+    "t": 32.12
+   }
+  ]
+ },
+ {
+  "start": 33.7,
+  "end": 35.08,
+  "words": [
+   {
+    "text": "O",
+    "kind": "plain",
+    "t": 33.7
+   },
+   {
+    "text": "rei",
+    "kind": "red",
+    "t": 33.9
+   },
+   {
+    "text": "voltou,",
+    "kind": "plain",
+    "t": 34.14
+   },
+   {
+    "text": "irmão",
+    "kind": "plain",
+    "t": 34.74
+   }
+  ]
+ },
+ {
+  "start": 35.24,
+  "end": 36.24,
+  "words": [
+   {
+    "text": "causando",
+    "kind": "plain",
+    "t": 35.24
+   },
+   {
+    "text": "pânico",
+    "kind": "zoom",
+    "t": 35.86
+   }
+  ]
+ },
+ {
+  "start": 37.45,
+  "end": 38.54,
+  "words": [
+   {
+    "text": "C*,",
+    "kind": "censor",
+    "t": 37.45
+   },
+   {
+    "text": "b*,",
+    "kind": "censor",
+    "t": 37.66
+   },
+   {
+    "text": "doidão",
+    "kind": "red",
+    "t": 38.08
+   }
+  ]
+ },
+ {
+  "start": 38.86,
+  "end": 40.26,
+  "words": [
+   {
+    "text": "eu",
+    "kind": "plain",
+    "t": 38.86
+   },
+   {
+    "text": "tô",
+    "kind": "plain",
+    "t": 38.98
+   },
+   {
+    "text": "sempre",
+    "kind": "plain",
+    "t": 39.2
+   },
+   {
+    "text": "voando",
+    "kind": "red",
+    "t": 39.48
+   }
+  ]
+ },
+ {
+  "start": 40.92,
+  "end": 42.5,
+  "words": [
+   {
+    "text": "Bolado,",
+    "kind": "plain",
+    "t": 40.92
+   },
+   {
+    "text": "montado",
+    "kind": "plain",
+    "t": 41.62
+   },
+   {
+    "text": "no",
+    "kind": "plain",
+    "t": 42.0
+   },
+   {
+    "text": "ouro",
+    "kind": "red",
+    "t": 42.26
+   }
+  ]
+ },
+ {
+  "start": 42.5,
+  "end": 44.28,
+  "words": [
+   {
+    "text": "é",
+    "kind": "plain",
+    "t": 42.5
+   },
+   {
+    "text": "o",
+    "kind": "plain",
+    "t": 42.68
+   },
+   {
+    "text": "estouro,",
+    "kind": "red",
+    "t": 42.7
+   },
+   {
+    "text": "estilo",
+    "kind": "plain",
+    "t": 43.42
+   },
+   {
+    "text": "vândalo",
+    "kind": "red",
+    "t": 43.7
+   }
+  ]
+ },
+ {
+  "start": 44.28,
+  "end": 45.44,
+  "words": [
+   {
+    "text": "Meu",
+    "kind": "plain",
+    "t": 44.28
+   },
+   {
+    "text": "bonde",
+    "kind": "red",
+    "t": 44.72
+   },
+   {
+    "text": "chegou",
+    "kind": "plain",
+    "t": 45.06
+   }
+  ]
+ },
+ {
+  "start": 45.58,
+  "end": 46.42,
+  "words": [
+   {
+    "text": "meu",
+    "kind": "plain",
+    "t": 45.58
+   },
+   {
+    "text": "bonde",
+    "kind": "red",
+    "t": 45.7
+   },
+   {
+    "text": "chegou",
+    "kind": "plain",
+    "t": 46.06
+   }
+  ]
+ },
+ {
+  "start": 46.42,
+  "end": 49.28,
+  "words": [
+   {
+    "text": "R.E.T",
+    "kind": "red",
+    "t": 46.42
+   },
+   {
+    "text": "é",
+    "kind": "plain",
+    "t": 47.36
+   },
+   {
+    "text": "um",
+    "kind": "plain",
+    "t": 47.56
+   },
+   {
+    "text": "escândalo",
+    "kind": "zoom",
+    "t": 47.62
+   }
+  ]
+ },
+ {
+  "start": 49.28,
+  "end": 50.52,
+  "words": [
+   {
+    "text": "Do",
+    "kind": "plain",
+    "t": 49.28
+   },
+   {
+    "text": "funk",
+    "kind": "red",
+    "t": 49.78
+   },
+   {
+    "text": "ao",
+    "kind": "plain",
+    "t": 50.02
+   },
+   {
+    "text": "rap",
+    "kind": "red",
+    "t": 50.26
+   }
+  ]
+ },
+ {
+  "start": 50.52,
+  "end": 52.48,
+  "words": [
+   {
+    "text": "é",
+    "kind": "plain",
+    "t": 50.52
+   },
+   {
+    "text": "o",
+    "kind": "plain",
+    "t": 50.62
+   },
+   {
+    "text": "trap",
+    "kind": "red",
+    "t": 50.74
+   },
+   {
+    "text": "rimando",
+    "kind": "plain",
+    "t": 51.0
+   },
+   {
+    "text": "rasteiro",
+    "kind": "plain",
+    "t": 51.52
+   }
+  ]
+ },
+ {
+  "start": 53.48,
+  "end": 54.98,
+  "words": [
+   {
+    "text": "Do",
+    "kind": "plain",
+    "t": 53.48
+   },
+   {
+    "text": "funk",
+    "kind": "plain",
+    "t": 53.68
+   },
+   {
+    "text": "ao",
+    "kind": "plain",
+    "t": 53.98
+   },
+   {
+    "text": "rap",
+    "kind": "plain",
+    "t": 54.24
+   },
+   {
+    "text": "é",
+    "kind": "plain",
+    "t": 54.5
+   },
+   {
+    "text": "o",
+    "kind": "plain",
+    "t": 54.62
+   },
+   {
+    "text": "trap",
+    "kind": "plain",
+    "t": 54.72
+   }
+  ]
+ },
+ {
+  "start": 54.98,
+  "end": 56.28,
+  "words": [
+   {
+    "text": "do",
+    "kind": "plain",
+    "t": 54.98
+   },
+   {
+    "text": "Rio",
+    "kind": "zoom",
+    "t": 55.22
+   },
+   {
+    "text": "de",
+    "kind": "zoom",
+    "t": 55.4
+   },
+   {
+    "text": "Janeiro",
+    "kind": "zoom",
+    "t": 55.54
+   }
+  ]
+ },
+ {
+  "start": 57.22,
+  "end": 58.54,
+  "words": [
+   {
+    "text": "Com",
+    "kind": "plain",
+    "t": 57.22
+   },
+   {
+    "text": "copos",
+    "kind": "plain",
+    "t": 57.74
+   },
+   {
+    "text": "pro",
+    "kind": "plain",
+    "t": 58.06
+   },
+   {
+    "text": "ar",
+    "kind": "plain",
+    "t": 58.22
+   }
+  ]
+ },
+ {
+  "start": 58.82,
+  "end": 60.34,
+  "words": [
+   {
+    "text": "gata",
+    "kind": "plain",
+    "t": 58.82
+   },
+   {
+    "text": "com",
+    "kind": "plain",
+    "t": 58.98
+   },
+   {
+    "text": "cabelo",
+    "kind": "plain",
+    "t": 59.32
+   },
+   {
+    "text": "ao",
+    "kind": "plain",
+    "t": 59.64
+   },
+   {
+    "text": "vento",
+    "kind": "plain",
+    "t": 59.82
+   }
+  ]
+ },
+ {
+  "start": 60.34,
+  "end": 62.02,
+  "words": [
+   {
+    "text": "Fogos",
+    "kind": "red",
+    "t": 60.34
+   },
+   {
+    "text": "e",
+    "kind": "plain",
+    "t": 61.08
+   },
+   {
+    "text": "t*",
+    "kind": "censor",
+    "t": 61.26
+   },
+   {
+    "text": "pro",
+    "kind": "plain",
+    "t": 61.58
+   },
+   {
+    "text": "alto",
+    "kind": "plain",
+    "t": 61.74
+   }
+  ]
+ },
+ {
+  "start": 62.16,
+  "end": 64.28,
+  "words": [
+   {
+    "text": "quem",
+    "kind": "plain",
+    "t": 62.16
+   },
+   {
+    "text": "é",
+    "kind": "plain",
+    "t": 62.28
+   },
+   {
+    "text": "jogador,",
+    "kind": "plain",
+    "t": 62.42
+   },
+   {
+    "text": "brinda",
+    "kind": "red",
+    "t": 63.22
+   },
+   {
+    "text": "o",
+    "kind": "plain",
+    "t": 63.35
+   },
+   {
+    "text": "momento",
+    "kind": "plain",
+    "t": 63.48
+   }
+  ]
+ },
+ {
+  "start": 65.48,
+  "end": 66.52,
+  "words": [
+   {
+    "text": "Vivendo",
+    "kind": "zoom",
+    "t": 65.48
+   },
+   {
+    "text": "avançado",
+    "kind": "zoom",
+    "t": 66.0
+   }
+  ]
+ },
+ {
+  "start": 66.54,
+  "end": 68.2,
+  "words": [
+   {
+    "text": "ganhando,",
+    "kind": "plain",
+    "t": 66.54
+   },
+   {
+    "text": "ganhando,",
+    "kind": "plain",
+    "t": 67.08
+   },
+   {
+    "text": "sem",
+    "kind": "red",
+    "t": 67.5
+   },
+   {
+    "text": "perder",
+    "kind": "red",
+    "t": 67.72
+   }
+  ]
+ },
+ {
+  "start": 69.49,
+  "end": 70.52,
+  "words": [
+   {
+    "text": "Vivendo",
+    "kind": "zoom",
+    "t": 69.49
+   },
+   {
+    "text": "avançado",
+    "kind": "zoom",
+    "t": 69.98
+   }
+  ]
+ },
+ {
+  "start": 70.64,
+  "end": 72.22,
+  "words": [
+   {
+    "text": "ganhando,",
+    "kind": "plain",
+    "t": 70.64
+   },
+   {
+    "text": "ganhando,",
+    "kind": "plain",
+    "t": 71.1
+   },
+   {
+    "text": "pra",
+    "kind": "red",
+    "t": 71.5
+   },
+   {
+    "text": "sempre",
+    "kind": "red",
+    "t": 71.72
+   }
+  ]
+ },
+ {
+  "start": 73.1,
+  "end": 74.5,
+  "words": [
+   {
+    "text": "Vivendo",
+    "kind": "zoom",
+    "t": 73.1
+   },
+   {
+    "text": "avançado",
+    "kind": "zoom",
+    "t": 73.98
+   }
+  ]
+ },
+ {
+  "start": 74.58,
+  "end": 76.16,
+  "words": [
+   {
+    "text": "ganhando,",
+    "kind": "plain",
+    "t": 74.58
+   },
+   {
+    "text": "ganhando,",
+    "kind": "plain",
+    "t": 75.1
+   },
+   {
+    "text": "sem",
+    "kind": "red",
+    "t": 75.48
+   },
+   {
+    "text": "perder",
+    "kind": "red",
+    "t": 75.72
+   }
+  ]
+ },
+ {
+  "start": 77.08,
+  "end": 78.5,
+  "words": [
+   {
+    "text": "Vivendo",
+    "kind": "zoom",
+    "t": 77.08
+   },
+   {
+    "text": "avançado",
+    "kind": "zoom",
+    "t": 77.96
+   }
+  ]
+ },
+ {
+  "start": 78.5,
+  "end": 79.74,
+  "words": [
+   {
+    "text": "ganhando,",
+    "kind": "plain",
+    "t": 78.5
+   },
+   {
+    "text": "e",
+    "kind": "plain",
+    "t": 78.98
+   },
+   {
+    "text": "ganhando",
+    "kind": "red",
+    "t": 79.1
+   }
+  ]
+ }
+]

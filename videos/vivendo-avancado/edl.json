@@ -1,0 +1,77 @@
+{
+ "source": "sources/clip.mp4",
+ "offset": 32.0,
+ "duration": 80.0,
+ "fps": 30,
+ "crop": "1138:640:71:40",
+ "size": "1080:608",
+ "_doc": "Imagem base = clipe em sincronia (src = t + offset). 'inserts' substituem a janela [start,end] do vídeo final pela cena que começa em 'src' no clipe.",
+ "inserts": [
+  {
+   "start": 0.0,
+   "end": 1.33,
+   "src": 31.0,
+   "note": "abertura: palácio com as águias"
+  },
+  {
+   "start": 10.8,
+   "end": 12.33,
+   "src": 138.52,
+   "note": "fumando vários: fumaça"
+  },
+  {
+   "start": 15.63,
+   "end": 16.17,
+   "src": 127.3,
+   "note": "motos e carros: táxi"
+  },
+  {
+   "start": 18.83,
+   "end": 20.34,
+   "src": 73.3,
+   "note": "gosto de viver: braços abertos"
+  },
+  {
+   "start": 42.2,
+   "end": 43.65,
+   "src": 115.6,
+   "note": "montado no ouro: corrente"
+  },
+  {
+   "start": 43.65,
+   "end": 46.79,
+   "src": 144.5,
+   "note": "meu bonde chegou: bonde reunido"
+  },
+  {
+   "start": 54.8,
+   "end": 55.75,
+   "src": 20.42,
+   "note": "Rio de Janeiro: placa Catete"
+  },
+  {
+   "start": 55.75,
+   "end": 56.34,
+   "src": 27.0,
+   "note": "Rio de Janeiro: placa Catete (2)"
+  },
+  {
+   "start": 56.34,
+   "end": 58.0,
+   "src": 80.35,
+   "note": "copos pro ar: bebendo"
+  },
+  {
+   "start": 58.0,
+   "end": 58.84,
+   "src": 66.3,
+   "note": "copos pro ar: garrafa"
+  },
+  {
+   "start": 62.83,
+   "end": 64.34,
+   "src": 104.45,
+   "note": "brinda o momento: copo"
+  }
+ ]
+}
