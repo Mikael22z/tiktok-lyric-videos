@@ -1,6 +1,6 @@
 # TikTok Lyric Videos — instruções para o agente
 
-Série de lyric videos verticais para o canal de TikTok do usuário. Converse em **português**.
+Série de lyric videos verticais para o canal de TikTok do usuário (**@K4SMITTK**). Converse em **português**.
 
 ## Antes de começar uma sessão nova
 

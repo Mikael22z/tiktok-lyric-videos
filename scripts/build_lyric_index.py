@@ -17,7 +17,11 @@ ap.add_argument("--title", required=True)
 ap.add_argument("--artist", required=True)
 ap.add_argument("--duration", type=float, required=True)
 ap.add_argument("--out", required=True)
+ap.add_argument("--font-file", default="assets/fonts/Syne-ExtraBold.woff2", help="caminho relativo ao projeto")
+ap.add_argument("--font-family", default="Syne ExtraBold")
+ap.add_argument("--font-scale", type=float, default=0.78, help="1.0 = tamanhos pensados para a Excalibur Nouveau")
 a = ap.parse_args()
+px = lambda v: f"{round(v * a.font_scale)}px"
 
 lyrics = json.load(open(a.lyrics, encoding="utf-8"))
 punches = json.load(open(a.punches))
@@ -41,21 +45,21 @@ page = f"""<!doctype html>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
     <style>
       @font-face {{
-        font-family: "Excalibur Nouveau";
-        src: url("assets/fonts/ExcaliburNouveau.woff2") format("woff2");
+        font-family: "{a.font_family}";
+        src: url("{a.font_file}") format("woff2");
       }}
       * {{ margin: 0; padding: 0; box-sizing: border-box; }}
       html, body {{ width: 1080px; height: 1920px; overflow: hidden; background: #000; }}
       #root {{
         position: relative; width: 100%; height: 100%; overflow: hidden; background: #000;
-        font-family: "Excalibur Nouveau", serif; color: #fff;
+        font-family: "{a.font_family}", sans-serif; color: #fff;
       }}
       #title {{
         position: absolute; left: 0; right: 0; top: 330px; display: flex; flex-direction: column;
         align-items: center; gap: 10px;
       }}
-      #title-main {{ display: block; font-size: 92px; line-height: 1; color: #e3121f; letter-spacing: 0.01em; }}
-      #title-sub {{ display: block; font-size: 40px; line-height: 1; color: #fff; opacity: 0.85; }}
+      #title-main {{ display: block; max-width: 900px; font-size: {px(92)}; line-height: 0.92; color: #e3121f; letter-spacing: 0.01em; text-align: center; }}
+      #title-sub {{ display: block; font-size: {px(40)}; line-height: 1; text-align: center; color: #fff; opacity: 0.85; }}
       #stage {{ position: absolute; left: 0; top: {STAGE_TOP}px; width: 1080px; height: 608px; overflow: hidden; }}
       #frame {{ position: absolute; inset: 0; transform-origin: 50% 45%; }}
       #pic {{ position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }}
@@ -67,15 +71,15 @@ page = f"""<!doctype html>
       .phrase {{
         position: absolute; left: 0; right: 0; bottom: 36px; padding: 0 140px;
         display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline;
-        column-gap: 20px; row-gap: 0; opacity: 0;
+        column-gap: {px(20)}; row-gap: 0; opacity: 0;
       }}
       .w {{
-        display: inline-block; font-size: 64px; line-height: 1.05; color: #fff; opacity: 0;
+        display: inline-block; font-size: {px(64)}; line-height: 1.05; color: #fff; opacity: 0;
         text-shadow: 0 3px 4px rgba(0,0,0,0.9), 0 0 22px rgba(0,0,0,0.75);
         transform-origin: 50% 70%;
       }}
-      .w.red, .w.zoom {{ color: #e3121f; font-size: 84px; }}
-      .w.zoom {{ font-size: 100px; }}
+      .w.red, .w.zoom {{ color: #e3121f; font-size: {px(84)}; }}
+      .w.zoom {{ font-size: {px(100)}; }}
       .w.censor {{ color: #fff; }}
     </style>
   </head>
