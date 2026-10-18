@@ -2,7 +2,7 @@
 
 _A definir a partir das referências enviadas (ver `../references/`)._
 
-- **Fonte:** Excalibur Nouveau — display com cara medieval/blackletter (arquivo em `fonts/`, pendente). Licença: fontes divergem entre domínio público e uso pessoal; confirmar com o arquivo de licença que vem no download.
+- **Fonte:** Excalibur Nouveau Medium (`fonts/ExcaliburNouveau.ttf` / `.woff2`), Typo-Graf, domínio público (ver `fonts/LICENSE.txt`). No CSS: `font-family: "Excalibur Nouveau Medium"`. Cobre todos os acentos do português. Prévia: `font-preview.png`.
 - **Paleta:**
 - **Entrada/saída do texto:**
 - **Posição da letra:** faixa central, respeitando as safe zones do TikTok
