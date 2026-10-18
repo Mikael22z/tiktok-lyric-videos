@@ -28,3 +28,6 @@ __pycache__/
 **/work/verify/
 **/renders/work-*/
 **/renders/.*hf-transaction*/
+
+# Vídeos de referência baixados (conteúdo de terceiros)
+references/media/
