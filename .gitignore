@@ -27,3 +27,4 @@ __pycache__/
 **/renders/previa*
 **/work/verify/
 **/renders/work-*/
+**/renders/.*hf-transaction*/
