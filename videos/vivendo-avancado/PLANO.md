@@ -35,6 +35,6 @@ python3 ../../scripts/align_lyrics.py                      # lyrics.txt + work/w
 python3 ../../scripts/build_picture.py edl.json projeto/assets/picture.mp4
 ffmpeg -ss 32 -t 80 -i sources/full.wav -af "afade=t=in:st=0:d=0.03,afade=t=out:st=79.6:d=0.4" -c:a aac -b:a 256k projeto/assets/music.m4a
 python3 ../../scripts/build_lyric_index.py --lyrics work/lyrics_timed.json --punches work/punches.json \
-  --title "Vivendo Avançado" --artist "Filipe Ret part. BK' e MC TH" --duration 80 --out projeto/index.html
+  --duration 80 --out projeto/index.html
 cd projeto && npx hyperframes check . && npx hyperframes render . -o renders/video.mp4 --fps 30
 ```

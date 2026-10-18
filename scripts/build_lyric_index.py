@@ -5,16 +5,15 @@ Entradas: letra cronometrada (align_lyrics.py) e pontos de grave (punches).
 
 Uso:
   python3 build_lyric_index.py --lyrics work/lyrics_timed.json --punches work/punches.json \
-      --title "Vivendo Avançado" --artist "Filipe Ret · BK' · MC TH" --duration 80 \
-      --out projeto/index.html
+      --duration 80 --out projeto/index.html   [--title "Nome" --artist "Artistas"]
 """
 import argparse, html, json
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--lyrics", required=True)
 ap.add_argument("--punches", required=True)
-ap.add_argument("--title", required=True)
-ap.add_argument("--artist", required=True)
+ap.add_argument("--title", help="nome da música acima do clipe (omitir = sem título, padrão da série)")
+ap.add_argument("--artist", default="")
 ap.add_argument("--duration", type=float, required=True)
 ap.add_argument("--out", required=True)
 ap.add_argument("--font-file", default="assets/fonts/Syne-ExtraBold.woff2", help="caminho relativo ao projeto")
@@ -36,6 +35,19 @@ for i, p in enumerate(lyrics):
         for j, w in enumerate(p["words"])
     )
     phrases_html.append(f'<div class="phrase" id="p{i}">{words}</div>')
+
+title_html = title_js = ""
+if a.title:
+    title_html = (
+        '<div id="title">'
+        f'<span id="title-main">{html.escape(a.title.upper())}</span>'
+        f'<span id="title-sub">{html.escape(a.artist)}</span>'
+        "</div>"
+    )
+    title_js = """      // Título: entra com zoom no primeiro segundo
+      tl.fromTo("#title-main", { scale: 1.9, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.55, ease: "expo.out" }, 0.05);
+      tl.fromTo("#title-sub", { y: 14, opacity: 0 }, { y: 0, opacity: 0.85, duration: 0.4, ease: "power2.out" }, 0.45);
+"""
 
 page = f"""<!doctype html>
 <html lang="pt-BR">
@@ -86,10 +98,7 @@ page = f"""<!doctype html>
   <body>
     <div id="root" data-composition-id="main" data-start="0" data-duration="{a.duration:g}"
          data-width="1080" data-height="1920">
-      <div id="title">
-        <span id="title-main">{html.escape(a.title.upper())}</span>
-        <span id="title-sub">{html.escape(a.artist)}</span>
-      </div>
+      {title_html}
       <div id="stage">
         <div id="frame" data-layout-allow-overflow>
           <video id="pic" class="clip" src="assets/picture.mp4" muted playsinline
@@ -109,10 +118,7 @@ page = f"""<!doctype html>
       const tl = gsap.timeline({{ paused: true }});
       const IR = {{ immediateRender: false }};
 
-      // Título: entra com zoom no primeiro segundo
-      tl.fromTo("#title-main", {{ scale: 1.9, opacity: 0 }}, {{ scale: 1, opacity: 1, duration: 0.55, ease: "expo.out" }}, 0.05);
-      tl.fromTo("#title-sub", {{ y: 14, opacity: 0 }}, {{ y: 0, opacity: 0.85, duration: 0.4, ease: "power2.out" }}, 0.45);
-
+{title_js}
       // Grave: alterna enquadramento (aberto/fechado) + pulso de zoom + flash.
       // Durações são cortadas antes do evento seguinte para nunca sobrepor tweens.
       const ZOOMS = LYRICS.flatMap((p) => p.words.filter((w) => w.kind === "zoom").map((w) => w.t));

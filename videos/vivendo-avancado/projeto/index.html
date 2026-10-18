@@ -47,10 +47,7 @@
   <body>
     <div id="root" data-composition-id="main" data-start="0" data-duration="80"
          data-width="1080" data-height="1920">
-      <div id="title">
-        <span id="title-main">VIVENDO AVANÇADO</span>
-        <span id="title-sub">Filipe Ret part. BK&#x27; e MC TH</span>
-      </div>
+      
       <div id="stage">
         <div id="frame" data-layout-allow-overflow>
           <video id="pic" class="clip" src="assets/picture.mp4" muted playsinline
@@ -70,9 +67,6 @@
       const tl = gsap.timeline({ paused: true });
       const IR = { immediateRender: false };
 
-      // Título: entra com zoom no primeiro segundo
-      tl.fromTo("#title-main", { scale: 1.9, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.55, ease: "expo.out" }, 0.05);
-      tl.fromTo("#title-sub", { y: 14, opacity: 0 }, { y: 0, opacity: 0.85, duration: 0.4, ease: "power2.out" }, 0.45);
 
       // Grave: alterna enquadramento (aberto/fechado) + pulso de zoom + flash.
       // Durações são cortadas antes do evento seguinte para nunca sobrepor tweens.
