@@ -1,7 +1,7 @@
 # Plano — Vivendo Avançado
 
 **Trecho:** 00:32.0 → 01:52.0 do clipe (80 s): verso completo + refrão completo, termina no último "ganhando".
-**Formato:** 1080×1920, 30 fps. Layout: **B** — fundo preto, clipe 16:9 (1080×608) centralizado, título acima, letra dentro do clipe.
+**Formato:** 1080×1920, 30 fps. Layout: **B** — fundo preto, clipe 16:9 (1080×608) centralizado, sem título (preto acima e abaixo), letra dentro do clipe.
 
 ## Análise
 - 117,5 BPM. 36 batidas fortes de grave (808) no trecho (`work/bass_hits.json`), intervalo mediano 2,4 s.
