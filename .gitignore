@@ -1,0 +1,16 @@
+# Mídia bruta (pesada e re-baixável pelo link) — não versionar
+**/sources/
+**/downloads/
+**/edit/clips_graded/
+**/edit/verify/
+**/renders/*draft*
+**/snapshots/
+*.wav
+*.mov
+
+# Dependências / cache
+node_modules/
+.venv/
+__pycache__/
+.DS_Store
+.env
